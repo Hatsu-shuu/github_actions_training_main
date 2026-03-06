@@ -3,7 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       greeting:
-        type: string
+        type: choice
+        options:
+          - Hello
+          - goodby
+          - see you
+          - hi!
         default: Hello
         required: true
         description: A cheerful world
