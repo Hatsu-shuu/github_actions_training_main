@@ -9,7 +9,7 @@ on:
           - goodby
           - see you
           - hi!
-        # default: Hello
+        default: Hello
         required: true
         description: A cheerful world
 jobs:
