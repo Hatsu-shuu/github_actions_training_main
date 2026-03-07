@@ -1,0 +1,8 @@
+name: Status Check Functions
+on: push
+jobs:
+  fail:
+    steps:
+      - run: exit 1
+      - run: echo "Hello"
+        if: ${{ failure() }}
